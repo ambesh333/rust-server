@@ -1,0 +1,30 @@
+# Rust build output
+/target/
+**/*.rs.bk
+
+# If built with the `--release` flag:
+**/release/
+
+# Ignore Cargo.lock if you're publishing a library
+# But for binaries and apps, it's OK to keep it
+# So we don't ignore it here.
+
+# Logs
+*.log
+
+# Backup / swap files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# VS Code
+.vscode/
+
+# JetBrains (CLion, IntelliJ, RustRover)
+.idea/
+
+# macOS metadata
+.DS_Store
+
+# Lin
